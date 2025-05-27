@@ -1,0 +1,10 @@
+            <?php
+            echo '<div class="card">';
+            echo '<div class="card-body">';
+            echo "<h2 class='card-title'>{$produit['nom']}</h2>";
+            echo "<p class='card-text'>{$produit['prix']}</p>";
+            echo '</div>';
+            echo '</div>';
+            ?>
+                $imagePath =  'images/' . $image['name'];
+    move_uploaded_file($image['tmp_name'], $imagePath);
